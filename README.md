@@ -134,6 +134,8 @@ Type은 Commit의 종류를 나타냅니다.
 |chore|빌드 업무 수정, 패키지 매니저 수정(.gitignore 수정 같은 경우)|
 |rename|파일 혹은 폴더명을 수정한 경우|🚚|🚚 rename: change component file names
 |remove|파일을 삭제한 경우|🔥|🔥 remove: delete obsolete utility functions
+|comment|주석 추가 및 수정|💡|💡 comment: Add explanatory comments for better code readability
+
 
 태그중에서 가장 많이 사용하는 것은 <u>`feat`</u>과 <u>`fix`</u>입니다.
 `style`, `design`처럼 로직 변화가 없을 경우에 커밋 메시지에 명시해주는 것만으로도 추후 오류를 찾을 때 많은 도움이 됩니다.
