@@ -114,6 +114,9 @@ Git과 같은 분산 버전 관리 시스템에서 개발자가 코드를 변경
 |🚚|`:truck:`|리소스 이동, 이름 변경|Move or rename resources (e.g.: files paths routes).|
 |💡|`:bulb:`|주석 추가/수정|Add or update comments in source code.|
 |🗃|`:card_file_box:`|데이터베이스 관련 수정|Perform database related changes.|
+|⬆️|`:arrow_up:`|종속성 업그레이드|Upgrade dependencies.|
+|⬇️|`:arrow_down:`|종속성 다운그레이드|Downgrade dependencies.|
+
 
 ### 2. {type}
 Type은 Commit의 종류를 나타냅니다.
@@ -131,7 +134,7 @@ Type은 Commit의 종류를 나타냅니다.
 |revert|이전 커밋으로 회귀할 때|⏪️|⏪ revert: undo last commit|
 |build|빌드 파일 또는 외부 종속성에 영향을 미치는 수정|~~💚~~|
 |ci|CI 설정 파일 수정|
-|chore|빌드 업무 수정, 패키지 매니저 수정(.gitignore 수정 같은 경우)|
+|chore|빌드 업무 수정, 패키지 매니저 수정(.gitignore 수정 같은 경우)|⬆️⬇️|⬆️ chore(dependencies): Update axios to version 1.6.4
 |rename|파일 혹은 폴더명을 수정한 경우|🚚|🚚 rename: change component file names
 |remove|파일을 삭제한 경우|🔥|🔥 remove: delete obsolete utility functions
 |comment|주석 추가 및 수정|💡|💡 comment: Add explanatory comments for better code readability
