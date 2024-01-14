@@ -116,7 +116,8 @@ Git과 같은 분산 버전 관리 시스템에서 개발자가 코드를 변경
 |🗃|`:card_file_box:`|데이터베이스 관련 수정|Perform database related changes.|
 |⬆️|`:arrow_up:`|종속성 업그레이드|Upgrade dependencies.|
 |⬇️|`:arrow_down:`|종속성 다운그레이드|Downgrade dependencies.|
-
+|➕|`:heavy_plus_sign:`|의존성 추가|Add a dependency.|
+|➖|`:heavy_minus_sign:`|의존성 제거|Remove a dependency.|
 
 ### 2. {type}
 Type은 Commit의 종류를 나타냅니다.
